@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+      "esModuleInterop": true,
+      "outDir": ".app/dist/",
+      "sourceMap": true,
+      "noImplicitAny": false,
+      "module": "commonjs",
+      "target": "es5",
+      "jsx": "react",
+      "lib": ["es5", "es6", "dom"],
+      "baseUrl": "types",
+      "typeRoots": ["types"],
+  },
+  "include": [
+      ".app/src/**/*"
+  ],
+  "exclude": [],
+  "awesomeTypescriptLoaderOptions": {
+      "reportFiles": [
+          ".app/src/**/*"
+      ]
+  }
+}
